@@ -14,6 +14,7 @@ document.getElementById('addtaskbtn').addEventListener('click',()=>{
     clrbtn.textContent='done';
     card.textContent = task_;
     document.querySelector('#tasks').appendChild(card);
+    document.querySelector('#tasks').appendChild(clrbtn);
     //addItem(task_,'#card');
     
 });
